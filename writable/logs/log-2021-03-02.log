@@ -1,0 +1,113 @@
+INFO - 2021-03-02 00:06:15 --> Used the default controller.
+INFO - 2021-03-02 00:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 00:10:03 --> Used the default controller.
+INFO - 2021-03-02 00:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 02:00:12 --> Used the default controller.
+INFO - 2021-03-02 02:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 02:00:13 --> Used the default controller.
+INFO - 2021-03-02 02:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 02:25:24 --> Used the default controller.
+INFO - 2021-03-02 02:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 02:26:57 --> Used the default controller.
+INFO - 2021-03-02 02:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 03:10:27 --> Used the default controller.
+INFO - 2021-03-02 03:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 03:10:28 --> Used the default controller.
+INFO - 2021-03-02 03:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 03:10:54 --> Used the default controller.
+INFO - 2021-03-02 03:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 03:12:34 --> Used the default controller.
+INFO - 2021-03-02 03:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 03:13:44 --> Used the default controller.
+INFO - 2021-03-02 03:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 03:13:47 --> Used the default controller.
+INFO - 2021-03-02 03:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 04:01:37 --> Used the default controller.
+INFO - 2021-03-02 04:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 04:01:38 --> Used the default controller.
+INFO - 2021-03-02 04:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 04:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-03-02 04:01:56 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-03-02 04:01:56 --> Unable to connect to the database.
+#0 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /home/carthik/Desktop/waas-super-admin-main/app/Models/LoginModel.php(124): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/carthik/Desktop/waas-super-admin-main/app/Controllers/Login.php(51): App\Models\LoginModel->authenticate_user()
+#4 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Login->authenticate()
+#5 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/carthik/Desktop/waas-super-admin-main/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/carthik/D...')
+#9 {main}
+INFO - 2021-03-02 04:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-03-02 04:01:57 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-03-02 04:01:57 --> Unable to connect to the database.
+#0 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /home/carthik/Desktop/waas-super-admin-main/app/Models/LoginModel.php(124): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/carthik/Desktop/waas-super-admin-main/app/Controllers/Login.php(51): App\Models\LoginModel->authenticate_user()
+#4 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Login->authenticate()
+#5 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/carthik/Desktop/waas-super-admin-main/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/carthik/D...')
+#9 {main}
+INFO - 2021-03-02 04:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-03-02 04:01:59 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-03-02 04:01:59 --> Unable to connect to the database.
+#0 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /home/carthik/Desktop/waas-super-admin-main/app/Models/LoginModel.php(124): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/carthik/Desktop/waas-super-admin-main/app/Controllers/Login.php(51): App\Models\LoginModel->authenticate_user()
+#4 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Login->authenticate()
+#5 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/carthik/Desktop/waas-super-admin-main/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/carthik/D...')
+#9 {main}
+INFO - 2021-03-02 04:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-03-02 04:01:59 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-03-02 04:01:59 --> Unable to connect to the database.
+#0 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /home/carthik/Desktop/waas-super-admin-main/app/Models/LoginModel.php(124): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/carthik/Desktop/waas-super-admin-main/app/Controllers/Login.php(51): App\Models\LoginModel->authenticate_user()
+#4 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Login->authenticate()
+#5 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/carthik/Desktop/waas-super-admin-main/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/carthik/D...')
+#9 {main}
+INFO - 2021-03-02 04:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-03-02 04:01:59 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-03-02 04:01:59 --> Unable to connect to the database.
+#0 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /home/carthik/Desktop/waas-super-admin-main/app/Models/LoginModel.php(124): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/carthik/Desktop/waas-super-admin-main/app/Controllers/Login.php(51): App\Models\LoginModel->authenticate_user()
+#4 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Login->authenticate()
+#5 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/carthik/Desktop/waas-super-admin-main/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/carthik/D...')
+#9 {main}
+INFO - 2021-03-02 04:02:36 --> Used the default controller.
+INFO - 2021-03-02 04:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 04:02:38 --> Used the default controller.
+INFO - 2021-03-02 04:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 04:02:42 --> Used the default controller.
+INFO - 2021-03-02 04:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 04:02:49 --> Used the default controller.
+INFO - 2021-03-02 04:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 05:04:36 --> Used the default controller.
+INFO - 2021-03-02 05:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 05:04:37 --> Used the default controller.
+INFO - 2021-03-02 05:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 05:26:56 --> Used the default controller.
+INFO - 2021-03-02 05:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 05:26:56 --> Used the default controller.
+INFO - 2021-03-02 05:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 05:27:02 --> Used the default controller.
+INFO - 2021-03-02 05:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-02 07:32:07 --> Used the default controller.
+INFO - 2021-03-02 07:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

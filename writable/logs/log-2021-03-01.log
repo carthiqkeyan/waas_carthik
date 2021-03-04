@@ -1,0 +1,52 @@
+CRITICAL - 2021-03-01 04:27:33 --> Cache unable to write to /home/carthik/Desktop/waas-super-admin-main/writable/cache/
+#0 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Cache/Handlers/FileHandler.php(78): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+#1 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Cache/CacheFactory.php(84): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+#2 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Config/Services.php(123): CodeIgniter\Cache\CacheFactory::getHandler()
+#3 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::cache()
+#4 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Config/Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance()
+#5 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Common.php(102): CodeIgniter\Config\Services::cache()
+#6 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(629): cache()
+#7 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(298): CodeIgniter\CodeIgniter->displayCache()
+#8 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#9 /home/carthik/Desktop/waas-super-admin-main/spark(57): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2021-03-01 11:12:37 --> Cache unable to write to /home/carthik/Desktop/waas-super-admin-main/writable/cache/
+#0 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Cache/Handlers/FileHandler.php(78): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+#1 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Cache/CacheFactory.php(84): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+#2 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Config/Services.php(123): CodeIgniter\Cache\CacheFactory::getHandler()
+#3 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::cache()
+#4 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Config/Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance()
+#5 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Common.php(102): CodeIgniter\Config\Services::cache()
+#6 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(629): cache()
+#7 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(298): CodeIgniter\CodeIgniter->displayCache()
+#8 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#9 /home/carthik/Desktop/waas-super-admin-main/spark(57): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2021-03-01 11:26:10 --> Cache unable to write to /home/carthik/Desktop/waas-super-admin-main/writable/cache/
+#0 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Cache/Handlers/FileHandler.php(78): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+#1 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Cache/CacheFactory.php(84): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+#2 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Config/Services.php(123): CodeIgniter\Cache\CacheFactory::getHandler()
+#3 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::cache()
+#4 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Config/Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance()
+#5 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Common.php(102): CodeIgniter\Config\Services::cache()
+#6 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(629): cache()
+#7 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(298): CodeIgniter\CodeIgniter->displayCache()
+#8 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#9 /home/carthik/Desktop/waas-super-admin-main/spark(57): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2021-03-01 22:35:18 --> Cache unable to write to /home/carthik/Desktop/waas-super-admin-main/writable/cache/
+#0 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Cache/Handlers/FileHandler.php(78): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+#1 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Cache/CacheFactory.php(84): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+#2 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Config/Services.php(123): CodeIgniter\Cache\CacheFactory::getHandler()
+#3 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::cache()
+#4 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Config/Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance()
+#5 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/Common.php(102): CodeIgniter\Config\Services::cache()
+#6 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(629): cache()
+#7 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CodeIgniter.php(298): CodeIgniter\CodeIgniter->displayCache()
+#8 /home/carthik/Desktop/waas-super-admin-main/vendor/codeigniter4/framework/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#9 /home/carthik/Desktop/waas-super-admin-main/spark(57): CodeIgniter\CLI\Console->run()
+#10 {main}
+INFO - 2021-03-01 22:45:55 --> Used the default controller.
+INFO - 2021-03-01 22:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-03-01 23:33:48 --> Used the default controller.
+INFO - 2021-03-01 23:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
